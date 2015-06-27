@@ -297,7 +297,7 @@ h1{
     padding: 30px;
     border-radius: 10px;
     border:1px solid #000;
-    box-shadow: 5px 5px 31px -4px #333333;
+    box-shadow: 0px 25px 40px 1px #777;
 }
 .fields{
     background:  rgba(255, 255, 255, 0.3);
@@ -320,13 +320,13 @@ h1{
 #note-precision.tooMuch {
     color: red;
     font-weight: normal;
-    margin-left: +6em;
 }
 #note-precision.tooLow {
     color: red;
     font-weight: normal;
-    margin-left: -6em;
+
 }
+
 #note-precision.justGrey {
     color: #8e988e;
     font-weight: normal;
@@ -346,3 +346,55 @@ h1{
 #tuner{
     color:#000;
 }
+#note-precision{
+    background: rgba(255,255,255,0.6);
+    padding: 4px;
+    border-radius: 10px;
+
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+
+}
+
+.too1{
+    margin-left: 60px;
+}
+
+.too2{
+    margin-left: 100px;
+}
+
+.too3{
+    margin-left: 140px;
+}
+
+.too4{
+    margin-left: 180px;
+}
+
+.too5{
+    margin-left: 220px;
+}
+
+
+.low1{
+    margin-left: -60px;;
+}
+
+.low2{
+    margin-left: -100px;;
+}
+
+.low3{
+    margin-left: -140px;;
+}
+.low4{
+    margin-left: -180px;
+}
+.low5{
+    margin-left: -220px;
+}
+
+

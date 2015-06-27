@@ -149,6 +149,9 @@ function autoCorrelate( buf, sampleRate ) {
 
 function gotStream(stream) {
     // Create an AudioNode from the stream.
+
+    if(audioContext !== null){
+
     mediaStreamSource = audioContext.createMediaStreamSource(stream);
 
     // Connect it to the destination.
@@ -156,6 +159,7 @@ function gotStream(stream) {
     analyser.fftSize = 2048;
     mediaStreamSource.connect( analyser );
     updatePitch();
+    }
 }
 
 
