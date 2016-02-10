@@ -1,7 +1,8 @@
 # UkuTuna
 
 
-Live on : http://linediconsine.github.io/UkuTuna/
+Live on : https://linediconsine.github.io/UkuTuna/ 
+(Note on chrome the microphone are accessible only on secure https connection)
 
 
 I create a Ukulele tuner based on my easrly experience with this instrument.
